@@ -37,4 +37,7 @@ src_install() {
 
     exeinto /usr/bin
     doexe usr/bin/*
+
+    insinto /etc
+    doins etc/*
 }

@@ -1,0 +1,5 @@
+# List of source, destination, retention tuples to be backed up using rdiff-backup
+
+/home/someone				/mnt/rdiffs/home/someone	18M
+/etc						/mnt/rdiffs/etc				1Y
+backup@host::/home/user		/mnt/rdiffs/user			1Y
